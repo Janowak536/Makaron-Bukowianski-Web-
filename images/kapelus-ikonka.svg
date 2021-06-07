@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="108" height="52" viewBox="0 0 108 52">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: red;
+        stroke-linecap: round;
+        stroke-width: 3px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Kapelus" transform="translate(-55 -682)">
+    <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="32.5" cy="24.5" rx="32.5" ry="24.5" transform="translate(75 682)"/>
+    <ellipse id="Ellipse_2" data-name="Ellipse 2" cx="54" cy="9.5" rx="54" ry="9.5" transform="translate(55 715)"/>
+    <path id="Path_6" data-name="Path 6" d="M112,682.008s.123,10.818-8.965,14.01-2.5,6.238-2.5,6.238l8.981,1.825,8.565-1.825,1.159-9.236v-7.535l-2.9-2.079Z" transform="translate(-37 23)"/>
+    <path id="Path_7" data-name="Path 7" d="M106.856,682.008a49.851,49.851,0,0,0,2.428,7.225c1.213,2.854,2.917,5.986,8.036,7.505,10.822,3.211,8.6,4.722,8.6,4.722l-16.115,2.755-10.2-1.836-1.38-9.293V685.5l3.452-2.091Z" transform="matrix(0.999, 0.035, -0.035, 0.999, 56.466, 16.571)"/>
+    <path id="Path_8" data-name="Path 8" class="cls-1" d="M108.121,692.818a141.582,141.582,0,0,0,18.216,2.567,186.3,186.3,0,0,0,29.314.352c.5-.031,2.592-.291,3.424-.352,6.338-.463,13.436-1.284,20.89-2.567" transform="translate(-35.586 23)"/>
+    <ellipse id="Ellipse_8" data-name="Ellipse 8" class="cls-2" cx="3" cy="2" rx="3" ry="2" transform="translate(82 716)"/>
+    <ellipse id="Ellipse_14" data-name="Ellipse 14" class="cls-2" cx="3" cy="2" rx="3" ry="2" transform="translate(72 714)"/>
+    <ellipse id="Ellipse_9" data-name="Ellipse 9" class="cls-2" cx="3" cy="2" rx="3" ry="2" transform="matrix(0.998, 0.07, -0.07, 0.998, 92.147, 716.796)"/>
+    <ellipse id="Ellipse_10" data-name="Ellipse 10" class="cls-2" cx="3" cy="2" rx="3" ry="2" transform="translate(102 717)"/>
+    <ellipse id="Ellipse_11" data-name="Ellipse 11" class="cls-2" cx="3" cy="2" rx="3" ry="2" transform="translate(112 717)"/>
+    <ellipse id="Ellipse_12" data-name="Ellipse 12" class="cls-2" cx="3" cy="2" rx="3" ry="2" transform="translate(122 716)"/>
+    <ellipse id="Ellipse_13" data-name="Ellipse 13" class="cls-2" cx="3" cy="2" rx="3" ry="2" transform="translate(132 715)"/>
+    <ellipse id="Ellipse_15" data-name="Ellipse 15" class="cls-2" cx="3" cy="2" rx="3" ry="2" transform="translate(140 714)"/>
+  </g>
+</svg>

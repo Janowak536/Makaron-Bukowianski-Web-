@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="68.731" height="77.386" viewBox="0 0 68.731 77.386">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f1c99d;
+      }
+
+      .cls-1, .cls-3 {
+        stroke: #b28f68;
+      }
+
+      .cls-2 {
+        fill: #fae6d1;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Paczka" transform="translate(-26.008 -863.49)">
+    <path id="Path_37" data-name="Path 37" class="cls-1" d="M26.508,921.43,60.467,940.3,94.239,921.43V883.215L60.467,864.065,26.508,883.215Z"/>
+    <path id="Path_40" data-name="Path 40" class="cls-2" d="M124.88,874.068l32.912,19.08v37.31l5.3-3.385V889.9l-33.216-18.839Z" transform="translate(-81.378 0.298)"/>
+    <path id="Path_38" data-name="Path 38" class="cls-3" d="M26.508,883.315,60.463,902.4l33.525-19.09"/>
+    <path id="Path_39" data-name="Path 39" class="cls-3" d="M60.373,902.4v37.754"/>
+    <path id="Path_41" data-name="Path 41" class="cls-2" d="M157.379,870.918l5.374,3.34-32.906,18.969.282,37.091-5.718-2.789.245-37.577Z" transform="translate(-85 0.438)"/>
+  </g>
+</svg>

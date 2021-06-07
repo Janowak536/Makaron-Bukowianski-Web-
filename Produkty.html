@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produkty</title>
+    <link rel="stylesheet" href="css/Produkty.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <a class="logo" href="index.html"><img src="images/Makaron Bukowiański Logo bez tła PNG.png" alt=""></a>
+
+            <img id="mobile-cta" class="mobile-menu" src="images/menu.svg" alt="open navigation">
+
+            <nav>
+                <img id="mobile-exit" class="mobile-menu-exit" src="images/exit.svg" alt="close navigation">
+                <ul class="primary-nav">
+                    <li class="current"><a href="index.html">Strona główna</a></li>
+                    <li><a href="Onas.html">O nas</a></li>
+                    <li><a href="Produkty.html">Produkty</a></li>
+                    <li><a href="#/">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <section class="hero">
+
+        <div class="container">
+            <div class="hero-text">
+                <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmakaronbukowainski%2Fvideos%2F1307997499583446%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer-section">
+        <a id="/"><div class="footer"></a>
+            
+            <div class="clip"></div>
+            <div class="clip-path-top4"></div>
+            <img class="paczki-footer" src="images/Paczki.png" alt="">
+            
+            <div class="footer-container">
+                
+            <ul>
+                <li><img class="logo-footer" src="images/Makaron Bukowiański Logo PNG.png" alt=""></li>
+                <li class="info-text"><p>Sklep internetowy z tradycyjnymi makaronami. Naturalne składniki</p> <p></p>i regionalne
+                    metody wyrobu od pokoleń. Najwyższej jakości bez wychodzenia z domu.</li>
+                <li class="phone-number">Telefon: <span class="color-text"><a href="callto:+48660844911:">+48 660 844 911</a> lub <a href="callto:+48182655790">+48 182 655 790</a></span>
+                    <p>(PON-PT: 9:00 - 17:00)</p>
+                </li>
+                <li class="email">Email: <span class="color-text"><a href="mailto:kontakt@makaronbukowianski.pl">kontakt@makaronbukowianski.pl</a></span></li>
+                <li class="adres">Adres: <p><span class="color-text">Rogoźnik 4a, 34-471 Ludźmierz, małopolskie
+                            POLSKA</span></p>
+                </li>
+
+            </ul>
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2594.0566404079286!2d19.95664241592486!3d49.44564647934938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715e58e19b4cdb1%3A0xcf2ffb2b6f059041!2sRogo%C5%BAnik%204%20a%2C%2034-471%20Rogo%C5%BAnik!5e0!3m2!1spl!2spl!4v1620638552352!5m2!1spl!2spl"
+                    width="600" height="550" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <script>
+        const mobileBtn = document.getElementById('mobile-cta');
+        nav = document.querySelector('nav');
+        mobileBtnExit = document.getElementById('mobile-exit');
+
+        mobileBtn.addEventListener('click', () => {
+            nav.classList.add('menu-btn');
+        })
+
+        mobileBtnExit.addEventListener('click', () => {
+            nav.classList.remove('menu-btn');
+        })
+    </script>
+    
+</body>
+</html>
