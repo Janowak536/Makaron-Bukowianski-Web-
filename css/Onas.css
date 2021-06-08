@@ -188,7 +188,7 @@ nav.menu-btn {
 nav {
   position: fixed;
   z-index: 999;
-  width: 45%;
+  width: 65%;
   right: 0;
   top: 0;
   background-color: #20272e;
@@ -269,6 +269,9 @@ nav li a:hover {
     padding: 0 3em;
     display: inline-table;
     margin: 2em 0;
+  }
+  nav {
+    width: 40%;
   }
 }
 

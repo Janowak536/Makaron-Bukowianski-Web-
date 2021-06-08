@@ -397,7 +397,7 @@ nav.menu-btn {
 nav {
   position: fixed;
   z-index: 999;
-  width: 45%;
+  width: 65%;
   right: 0;
   top: 0;
   background-color: #20272e;
@@ -539,6 +539,9 @@ nav li a:hover {
   .film-section .film .video-size {
     height: 20em;
     width: 30em;
+  }
+  nav {
+    width: 40%;
   }
 }
 

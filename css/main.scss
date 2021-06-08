@@ -389,7 +389,7 @@ nav.menu-btn {
 nav {
   position: fixed;
   z-index: 999;
-  width: 45%;
+  width: 65%;
   right: 0;
   top: 0;
   background-color: #20272e;
@@ -556,6 +556,9 @@ nav {
         width: 30em;
       }
     }
+  }
+  nav {
+    width: 40%;
   }
 }
 @media only screen and (min-width:950px) {
