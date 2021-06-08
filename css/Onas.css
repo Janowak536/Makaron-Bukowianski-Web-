@@ -286,7 +286,10 @@ nav li a:hover {
     height: 2.5em;
   }
   .hero {
-    margin: 1px 5em;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 1px;
+    margin-bottom: 3em;
   }
   .hero .container .hero-logo {
     height: 18em;
@@ -301,7 +304,10 @@ nav li a:hover {
 
 @media only screen and (min-width: 1050px) {
   .hero {
-    margin: 1px 4em;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-top: 1px;
+    margin-bottom: 3em;
   }
   .hero .container .line {
     margin: 0 4em;
