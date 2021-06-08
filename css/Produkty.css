@@ -48,6 +48,37 @@ ul {
   padding: 0;
 }
 
+.container .hero-text {
+  text-align: center;
+}
+
+.container .hero-text .space {
+  margin-top: 4em;
+}
+
+.container .hero-text .title {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.container .hero-text .photos1 img {
+  width: 0%;
+}
+
+.container .hero-text .photos2 img {
+  width: 100%;
+}
+
+.container .hero-text iframe {
+  margin-top: 3em;
+  margin-bottom: 4em;
+  border-radius: 25px;
+  padding-top: 2em;
+  background-color: #20272e;
+  height: 12em;
+  width: 17em;
+}
+
 .footer-section {
   text-align: center;
   padding: 0;
@@ -133,7 +164,7 @@ nav.menu-btn {
 nav {
   position: fixed;
   z-index: 999;
-  width: 45%;
+  width: 65%;
   right: 0;
   top: 0;
   background-color: #20272e;
@@ -165,6 +196,17 @@ nav li a:hover {
   cursor: pointer;
 }
 
+@media only screen and (min-width: 500px) {
+  .container .hero-text iframe {
+    margin-top: 3em;
+    border-radius: 25px;
+    padding-top: 2em;
+    background-color: #20272e;
+    height: 16em;
+    width: 25em;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .navbar {
     padding: 1em 4em;
@@ -175,6 +217,24 @@ nav li a:hover {
   .navbar .container .mobile-menu {
     height: 2em;
     padding-top: 2em;
+  }
+  .container .hero-text .photos1 img {
+    width: 100%;
+  }
+  .container .hero-text .photos2 {
+    margin-top: -5em;
+    margin-bottom: -5em;
+  }
+  .container .hero-text .photos2 img {
+    width: 0%;
+  }
+  .container .hero-text iframe {
+    padding-top: 2em;
+    height: 22em;
+    width: 35em;
+  }
+  nav {
+    width: 40%;
   }
 }
 
@@ -187,6 +247,24 @@ nav li a:hover {
   }
   .navbar .container .mobile-menu {
     height: 2.5em;
+  }
+  .container .hero-text .photos1 img {
+    width: 100%;
+  }
+  .container .hero-text .photos2 img {
+    width: 0%;
+  }
+  .container .hero-text iframe {
+    height: 22em;
+    width: 35em;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .container .hero-text iframe {
+    background-color: #20272e;
+    height: 26.5em;
+    width: 43em;
   }
 }
 
@@ -230,6 +308,10 @@ nav li a:hover {
   }
   .navbar nav ul.primary-nav:hover {
     font-weight: bold;
+  }
+  .container .hero-text iframe {
+    height: 35.5em;
+    width: 58em;
   }
 }
 /*# sourceMappingURL=Produkty.css.map */
